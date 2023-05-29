@@ -70,7 +70,7 @@ const Navbar = () => {
             Platform
           </a>
 
-          <button className="bg-transparent text-indigo-600 px-8 py-3 mb-4">
+          <button className="bg-transparent text-indigo-600 border border-indigo-600 rounded-md  my-3  px-8 py-3 mb-4">
             Sign In
           </button>
           <button
