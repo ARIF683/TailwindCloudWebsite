@@ -4,7 +4,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <>
-      <div className="w-screen h-[80px] z-10 fixed ">
+      <div className="w-screen h-[80px] z-10 ">
         <div className="flex items-center  justify-between bg-zinc-200 px-2  mx-auto py-5 shadow-lg w-full h-full ">
           <div className="flex items-center ">
             <h1 className="text-3xl font-bold pr-5 sm:text-4xl ">Brand.</h1>
