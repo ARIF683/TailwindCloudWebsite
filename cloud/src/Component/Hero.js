@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="bg-zinc-200 w-full  flex flex-col justify-between  ">
+      <div className="bg-zinc-200 w-full  flex flex-col justify-between pb-5  ">
         <div className="grid md:grid-cols-2  max-w-[1240px] m-auto px-5 ">
           <div className="flex flex-col md:items-start px-2 py-8 justify-center">
             <p className="text-2xl ">Unique Sequencing & Production</p>
@@ -18,18 +18,20 @@ const Hero = () => {
           <div>
             <img className="w-full" src="/Image/cyber-bg.png" />
           </div>
-          {/** 
-          <div className = "bg-zinc-200 absolute top-[25%] border border-slate-500 shadow-xl rounded-xl mx-1 flex flex-col text-center ">
-            <p>Data Services</p>
-            <div>
-              <p>App Security</p>
-              <p>Dashboard Design</p>
-              <p>Cloud Data</p>
-              <p>Api</p>
+          </div>
+          <div className = "flex items-center justify-center text-center mt-[-120px] md:mt-0  px-[50px] ">
+          <div className = "bg-zinc-200 border border-slate-300 shadow-xl rounded-xl space-y-3 py-5  mx-auto flex flex-col md:w-[50%]  ">
+            <p className = "text-lg font-bold py-2 ">Data Services</p>
+            <div className = "flex flex-wrap justify-between items-center px-5  text-left ">
+              <p className = "flex px-4 py-2 text-slate-500 ">App Security</p>
+              <p className = "flex px-4 py-2 text-slate-500  ">Dashboard Design</p>
+              <p className = "flex px-4 py-2 text-slate-500 ">Cloud Data</p>
+              <p className = "flex px-4 py-2 text-slate-500 ">API</p>
+            </div>
             </div>
           </div>
-  */}
-        </div>
+
+        
       </div>
     </>
   );
