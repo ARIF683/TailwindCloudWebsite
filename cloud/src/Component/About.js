@@ -12,7 +12,7 @@ const About = () => {
           </p>
         </div>
         <div className = "grid md:grid-cols-3 text-center gap-2   py-3 ">
-          <div className = "shadow-xl rounded-xl py-3 px-[50px] border ">
+          <div className = "shadow-xl rounded-xl py-3  border px-[50px]">
             <h1 className = "text-5xl text-indigo-600 font-bold ">100%</h1>
             <p className = "text-gray-400 ">Completion</p>
           </div>
