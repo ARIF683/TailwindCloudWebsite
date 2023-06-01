@@ -5,6 +5,7 @@ import About from './Component/About';
 import Support from './Component/Support';
 import Allinone from './Component/Allinone';
 import Pricing from './Component/Pricing';
+import Footer from './Component/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Support />
     <Allinone /> 
     <Pricing />
+    <Footer />
     </>
   );
 }
